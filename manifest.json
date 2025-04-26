@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-open-a-specific-file",
+	"name": "Open a Specific File",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "open a specific file in obsidian",
+	"author": "tmkddskf",
+	"authorUrl": "https://github.com/tmkddskf",
+	"fundingUrl": "https://github.com/tmkddskf",
 	"isDesktopOnly": false
 }

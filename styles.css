@@ -6,3 +6,48 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.file-list {
+    padding: 10px;
+}
+
+.file-item {
+    margin: 8px 0;
+}
+
+.file-button {
+    width: 100%;
+    padding: 8px 12px;
+    text-align: left;
+    background-color: var(--interactive-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.file-button:hover {
+    background-color: var(--interactive-hover);
+}
+
+.no-files-message {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 20px;
+}
+
+.file-config-container {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: var(--background-secondary);
+}
+
+.file-config-container .setting-item {
+    margin-bottom: 8px;
+}
+
+.file-config-container .setting-item:last-child {
+    margin-bottom: 0;
+}
